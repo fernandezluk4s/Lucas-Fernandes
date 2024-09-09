@@ -1,0 +1,86 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    text-align: center;
+    background-image: url('TechBG.jpg');
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto: verde escuro */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Aumenta o espaço entre as letras */
+}
+
+p {
+    font-size: 0.90rem; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto: verde escuro */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Aumenta o espaço entre as letras */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    max-width: 800px; /* Ajuste a largura máxima conforme necessário */
+    padding: 20px;
+    background-image: url('B.jpg');
+    background-color: #000000; /* Cor de fundo do bloco */
+    border: 1px solid #ffffff; /* Borda sólida preta de 2px */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.links a:hover {
+    background-color: #ddd;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 10px auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+
+}
